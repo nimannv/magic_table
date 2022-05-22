@@ -1,0 +1,20 @@
+<html>
+    <head></head>
+    <body>
+        <div id="mt"></div>
+
+
+        
+        <script src="magic_table.js"></script>
+        <script>
+            mytable = new MTable("mt");
+            mytable.columns = ["name", "fname", "age"];
+            mytable.rows=[
+                ["nima", "nazzari", "26"],
+                ["rosa", "hosseini", "23"],
+                ["sina", "nazzari", "20"]
+            ];
+            mytable.print();
+        </script>
+    </body>
+</html>
